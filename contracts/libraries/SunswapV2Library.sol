@@ -21,7 +21,8 @@ library SunswapV2Library {
                 hex'41',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'9dd9bfc2f6c1103a6c01d9c6a4044e4b8a9361f92df2728cdc3729922d56748e' //TODO: 主网的init code hash因为USDT合约地址改变需要改
+//                hex'9dd9bfc2f6c1103a6c01d9c6a4044e4b8a9361f92df2728cdc3729922d56748e' //TODO: 主网的init code hash因为USDT合约地址改变需要改
+                hex'0e26acb4c8f8d3df2264904ab1e00efdc142a9f341741ca7e0a7ae5f9b0c0fa9'
             ))));
     }
 
